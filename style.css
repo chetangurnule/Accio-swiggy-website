@@ -357,7 +357,7 @@ input[type="checkbox"],
 }
 .section-2 .card .quick-view{
     width: 100%;
-    border-top: 1px solid #444;
+    transition: all 0.8s ease-in-out;
 }
 .section-2 .card .quick-view a{
     display: block;
@@ -371,6 +371,9 @@ input[type="checkbox"],
 }
 .section-2 .card:hover .quick-view a{
     opacity: 1;
+}
+.section-2 .card:hover .quick-view{
+   border-top: 1px solid #444;
 }
 .section-2 .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
